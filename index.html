@@ -1,18 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<h1>Gib mir deinen Alter</h1>
-<input type="number" name="calculate" id="age">
-    <h1 id="id"></h1>
-   <br>
-   <input type="button" value="Click" id="button" onclick="myFunction()">
 
-   <script src="main.js"></script>
+<body>
+    <h1>Gib mir deinen Alter</h1>
+    <input type="number" name="calculate" id="age">
+    <h1 id="id"></h1>
+    <br>
+    <input type="button" value="Click" id="button" onclick="myFunction()">
+
+    <section>
+        <h2>Wie ist das Wetter heute?</h2>
+        <h2 id="h2"></h2>
+        <br>
+
+        <input type="checkbox" id="null" name="scales" >
+        <label for="null">0-3</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="drei" name="horns">
+            <label for="drei">3-6</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="sechs" name="horns">
+            <label for="sechs">6-8</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="acht" name="horns">
+            <label for="acht">8-10</label>
+        </div>
+
+        <input type="button" value="clickme" id="button1" onclick="less()">
+
+
+        <h1>..........</h1>
+    </section>
+
+
+    <section>
+        <h1 style="color: rgb(0, 119, 255)">JavaScript : if else statement</h1>
+<h3>
+      Hier prüfen wir, ob das Alter größer als 18 ist
+      oder nicht. Shisha rauchen darf man nur, wenn man volljährig ist.
+</h3>
+<hr />
+<h1 id="shisha"></h1>
+<form name="form1" action="#">
+      Geben Sie Ihr Alter ein<input type="text" name="text1" id="input" />
+      <input type="button" value="Alter" onclick="greaterThen()" />
+</form>
+
+    </section>
+    <script src="main.js"></script>
 </body>
+
 </html>
